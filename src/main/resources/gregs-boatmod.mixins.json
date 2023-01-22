@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.greg1904.boatmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ModEntityDataSaverMixin"
+  ],
+  "client": [
+    "BoatModMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
